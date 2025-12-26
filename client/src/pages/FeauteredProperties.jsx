@@ -8,17 +8,17 @@ import { featured } from '../assets/assejs'
 
 export default function FeauteredProperties() {
     return (
-        <div className='px-10 md:px-35 py-20 flex flex-col gap-5 items-center'>
+        <div className='px-2 sm:px-10 md:px-35 py-20 flex flex-col gap-5 items-center'>
             <div className='text-center flex flex-col gap-6'>
                 <div className='flex flex-col gap-2'>
                     <p className='text-3xl font-semibold '>Featured Properties</p>
                     <p className='text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
                 <div className='flex gap-5 justify-center py-3'>
-                    <p className='text-sm font-semibold rounded-full border py-2 px-4 bg-[#FFF8F6]'>All Properties</p>
-                    <p className='text-sm font-semibold py-2'>Villa</p>
-                    <p className='text-sm font-semibold py-2'>Apartments</p>
-                    <p className='text-sm font-semibold py-2'>office</p>
+                    <p className='text-xs sm:text-sm font-semibold rounded-full border py-2 px-4 bg-[#FFF8F6]'>All Properties</p>
+                    <p className='text-xs sm:text-sm font-semibold py-2'>Villa</p>
+                    <p className='text-xs sm:text-sm font-semibold py-2'>Apartments</p>
+                    <p className='text-xs sm:text-sm font-semibold py-2'>office</p>
                 </div>
             </div>
             <div className='grid md:grid-cols-3 gap-5  '>

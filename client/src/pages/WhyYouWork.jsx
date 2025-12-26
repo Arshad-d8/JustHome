@@ -5,7 +5,7 @@ import icon3 from '../assets/Vector3.png'
 
 export default function WhyYouWork() {
   return (
-    <div className='mx-10 md:mx-35 pb-20 flex flex-col gap-10'>
+    <div className='mx-3 sm:mx-10 md:mx-35 pb-20 flex flex-col gap-10'>
 
         <div className='text-center flex flex-col gap-3'>
             <p className='text-3xl font-semibold'>Why You Should Work With Us</p>

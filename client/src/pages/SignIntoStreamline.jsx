@@ -3,8 +3,8 @@ import arrow from '../assets/Vector.png'
 
 export default function SignIntoStreamline() {
   return (
-    <div className=' mx-10 md:mx-35 my-15 bg-[#1F4B43] flex flex-col md:flex-row py-15 px-20 gap-5 md:gap-20 justify-evenly rounded-2xl'>
-      <div className='text-white flex flex-col gap-2'>
+    <div className='mx-2 sm:mx-10 md:mx-35 my-15 bg-[#1F4B43] flex flex-col md:flex-row py-15 md:px-20 gap-5 md:gap-20 justify-evenly rounded-2xl items-center md:items-start'>
+      <div className='text-white flex flex-col gap-2 text-center md:text-start'>
         <p className='text-xl'>Sign in to streamline your search</p>
         <p className='text-sm'>Save properties, create alerts and keep track of the enquiries you send to agents.</p>
       </div>

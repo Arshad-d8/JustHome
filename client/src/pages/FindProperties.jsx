@@ -3,7 +3,7 @@ import { properties } from '../assets/assejs.js'
 
 export default function FindProperties() {
     return (
-        <div className='flex flex-col content-center px-10 py-20 md:px-35 md:py-25'>
+        <div className='flex flex-col content-center px-3 sm:px-10 py-20 md:px-35 md:py-25'>
             <div className='text-center flex flex-col gap-3'>
                 <p className='text-3xl font-semibold'>Find Properties in These Cities</p>
                 <p className='text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
