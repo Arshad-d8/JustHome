@@ -3,7 +3,7 @@ import filter_icon from '../assets/filter.png'
 
 export default function BlackSearch() {
   return (
-    <div className='bg-[#1A1A1A] md:h-20 md:w-200 mx-3 sm:mx-10 md:m-auto my-5 md:my-0 md:-mt-10 content-center rounded-3xl'>
+    <div className='bg-[#1A1A1A] md:h-20 md: mx-3 sm:mx-10 md:m-30 my-5 md:my-0 md:-mt-10 content-center rounded-3xl'>
       <form className='flex flex-col gap-5  md:flex-row justify-between items-center md:gap-3  px-5 py-4 md:py-0'>
         <div className='w-full'>
           <p className='text-gray-400 text-xs'>Keyword</p>

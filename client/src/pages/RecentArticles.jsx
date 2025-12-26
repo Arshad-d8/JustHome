@@ -4,7 +4,7 @@ import arrow from '../assets/arrow.svg'
 
 export default function RecentArticles() {
     return (
-        <div className='px-10 md:px-35 md:h-screen flex flex-col justify-center gap-10'>
+        <div className='px-2 py-10  sm:px-10 md:px-35 md:h-screen flex flex-col justify-center gap-10'>
             <div className='text-center flex flex-col gap-3 '>
                 <p className='text-4xl font-semibold'>Recent Articles & News</p>
                 <p className='text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

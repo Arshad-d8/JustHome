@@ -55,13 +55,13 @@ export default function WhatOurCustomers() {
             </div>
             <div className='flex flex-col gap-10 text-center border-t px-10 md:px-35 py-10  border-white/10 text-white'>
                 <p className='text-sm'>Thousands of world’s leading companies trust Space</p>
-                <div className='flex justify-between'>
-                    <img className='w-10 h-3 md:w-20 md:h-6' src={logo1} alt="" />
-                    <img className='w-10 h-3 md:w-15 md:h-6' src={logo2} alt="" />
-                    <img className='w-10 h-3 md:w-20 md:h-5' src={logo3} alt="" />
-                    <img className='w-10 h-3 md:w-20 md:h-5' src={logo4} alt="" />
-                    <img className='w-10 h-3 md:w-20 md:h-6' src={logo5} alt="" />
-                    <img className='w-10 h-3 md:w-20 md:h-6' src={logo6} alt="" />
+                <div className='flex flex-col md:flex-row justify-between gap-5 items-center md:items-start'>
+                    <img className='h-10 w-30 sm:w-10 sm:h-3 md:w-20 md:h-6' src={logo1} alt="" />
+                    <img className='h-10 w-30 sm:w-10 sm:h-3 md:w-15 md:h-6' src={logo2} alt="" />
+                    <img className='h-7 w-30 sm:w-10 sm:h-3 md:w-20 md:h-5' src={logo3} alt="" />
+                    <img className='h-8 w-30 sm:w-10 sm:h-3 md:w-20 md:h-5' src={logo4} alt="" />
+                    <img className='h-9 w-30 sm:w-10 sm:h-3 md:w-20 md:h-6' src={logo5} alt="" />
+                    <img className='h-7 w-30 sm:w-10 sm:h-3 md:w-20 md:h-6' src={logo6} alt="" />
                 </div>
             </div>
         </div>

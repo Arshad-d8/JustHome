@@ -8,7 +8,7 @@ import { IoMenu } from "react-icons/io5";
 export default function Navbar() {
   return (
     <div className='absolute w-full py-6 px-8'>
-      
+
       <div className='flex justify-between items-center'>
 
         <div>
@@ -47,11 +47,11 @@ export default function Navbar() {
         <div className='items-center text-white gap-5 hidden md:flex'>
           <p className='flex items-center text-xs gap-1 font-semibold'> <img className='h-4 w-4' src={phone} alt="" /> +68 685 88666</p>
           <p className='border  rounded-full p-2'><img className='h-4 w-4' src={user} /></p>
-          <button className='border rounded-full px-5 py-2 text-xs font-semibold'>Add Property</button>
+          <button className='border rounded-full px-2 py-1 xl:px-5 xl:py-2 text-xs xl:text-xs font-semibold'>Add Property</button>
         </div>
 
         {/* mobile menu */}
-        <p className='md:hidden'><IoMenu className='text-white text-4xl'/></p>
+        <p className='md:hidden'><IoMenu className='text-white text-4xl' /></p>
       </div>
     </div>
   )
