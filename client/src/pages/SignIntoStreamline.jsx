@@ -8,7 +8,7 @@ export default function SignIntoStreamline() {
         <p className='text-xl'>Sign in to streamline your search</p>
         <p className='text-sm'>Save properties, create alerts and keep track of the enquiries you send to agents.</p>
       </div>
-      <button className='bg-[#E7C873] w-fit md:w-full px-5 h-fit py-3 font-semibold text-[#1F4B43] text-sm flex items-center gap-3 rounded-xl'>Sign in or create an account <span><img src={arrow} alt="" /></span></button>
+      <button className='bg-[#E7C873] w-fit px-5 h-fit py-3 font-semibold text-[#1F4B43] text-sm flex items-center gap-3 rounded-xl'>Sign in or create an account <span><img src={arrow} alt="" /></span></button>
     </div>
   )
 }
